@@ -1,4 +1,4 @@
-# Don't Remove Credit Tg - @chahal_badfella
+# Don't Remove Credit Tg - @tg_abhi_bot
 
 import os
 import time
