@@ -6,13 +6,13 @@
 
 ## 😎 Credit
 
-🥳 Credit Goes To [ʙᴀᴅꜰᴇʟʟᴀ](https://t.me/chahal_badfella)
+🥳 Credit Goes To [ʙᴀᴅꜰᴇʟʟᴀ](https://t.me/tg_abhi_bot)
 
   
 ## 🔥 Commands
 
 - **`/start`**: ⚡ check bot is alive.
-- **`/chahal`**:  📁 upload txt file.
+- **`/abhi`**:  📁 upload txt file.
 - **`/stop`**: 🛑 stop ongoing process.
 - **`/restart`**: 🔮 restart the bot.
 - **`/cookies`**: 🍪 upload cookies file.
