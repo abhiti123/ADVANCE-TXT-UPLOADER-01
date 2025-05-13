@@ -1,5 +1,5 @@
-# Don't Remove Credit Tg - @chahal_badfella
-# Ask Doubt on telegram @chahal_badfella
+# Don't Remove Credit Tg - @tg_abhi_bot
+# Ask Doubt on telegram @tg_abhi_bot
 import signal
 import os
 import re
@@ -53,14 +53,14 @@ ibb="""**🚫𝗬𝗼𝘂 𝗮𝗿𝗲 𝗻𝗼𝘁 𝗮𝘂𝘁𝗵𝗼𝗿𝗶
 ➡️ ₹𝟭𝟱𝟬 /  𝟭𝟱 𝗱𝗮𝘆𝘀
 ➡️ ₹𝟮𝟲𝟵 /   𝟯𝟬 𝗱𝗮𝘆𝘀
 
-🍁𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗛𝗲𝗿𝗲 𝗧𝗼 𝗚𝗲𝘁 𝗔𝗰𝗰𝗲𝘀𝘀 @chahal_badfella
+🍁𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗛𝗲𝗿𝗲 𝗧𝗼 𝗚𝗲𝘁 𝗔𝗰𝗰𝗲𝘀𝘀 @tg_abhi_bot
 
 𝗗𝗼𝗻'𝘁 𝗔𝘀𝗸 𝗙𝗼𝗿 𝗙𝗿𝗲𝗲 
 
-✨𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 @achiever_team
+✨𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 @tg_abhi_bot
 **"""
 async def show_random_emojis(message):
-    emojis = ['🎊', '🔮', '😎', '⚡️', '🚀', '✨', '💥', '🎉', '🥂', '🍾', '🦠', '🤖', '❤️‍🔥', '🕊️', '💃', '🥳','🐅','🦁']
+    emojis = ['🎊', '🔮', '😎', '😘', '🚀', '😋', '💥', '🎉', '🥂', '🍾', '🦠', '🤖', '❤️‍🔥', '🕊️', '💃', '🥳','🐅','🦁']
     emoji_message = await message.reply_text(' '.join(random.choices(emojis, k=1)))
     return emoji_message
     
@@ -438,7 +438,7 @@ async def list_users(client: Client, msg: Message):
 async def help_command(client: Client, msg: Message):
     help_text = (
         "`/start` - Start the bot⚡\n\n"
-        "`/chahal` - Download and upload files (sudo)🎬\n\n"
+        "`/abhi` - Download and upload files (sudo)🎬\n\n"
         "`/restart` - Restart the bot🔮\n\n" 
         "`/stop` - Stop ongoing process🛑\n\n"
         "`/cookies` - Upload cookies file🍪\n\n"
@@ -452,7 +452,7 @@ async def help_command(client: Client, msg: Message):
     await msg.reply_text(help_text)
 
 # Upload command handler
-@bot.on_message(filters.command(["chahal"]))
+@bot.on_message(filters.command(["abhi"]))
 async def upload(bot: Client, m: Message):
     if not is_authorized(m.chat.id):
         await m.reply_text(ibb)
@@ -539,9 +539,9 @@ async def upload(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message with link
-    credit = "️[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/achiever_team)"
+    credit = "️[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/tg_abhi_bot)"
     if raw_text3 == '1':
-        CR = '[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/achiever_team)'
+        CR = '[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/tg_abhi_bot)'
     elif raw_text3:
         try:
             text, link = raw_text3.split(',')
@@ -802,7 +802,7 @@ async def upload(bot: Client, m: Message):
                 else:
                     emoji_message = await show_random_emojis(message)
                     remaining_links = len(links) - count
-                    Show = f"**🍁 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 🍁**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n🗂️ɪɴᴅᴇx » {str(count)}/{len(links)}\n\n🌐ʀᴇᴍᴀɪɴɪɴɢ ᴜʀʟ » {remaining_links}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🔗ᴜʀʟ » ** `{url}`\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ @tg_abhi_bot🐦‍🔥\n\n🙂 चलो फिर से अजनबी बन जायें 🙂"
+                    Show = f"**🍁 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 🍁**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n🗂️ɪɴᴅᴇx » {str(count)}/{len(links)}\n\n🌐ʀᴇᴍᴀɪɴɪɴɢ ᴜʀʟ » {remaining_links}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🔗ᴜʀʟ » ** `{url}`\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ @tg_abhi_bot🐦‍🔥\n\n😋 जाओ पढ़ो टाइम बर्बाद मत करो😋"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
