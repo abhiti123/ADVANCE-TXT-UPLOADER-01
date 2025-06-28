@@ -68,7 +68,7 @@ async def show_random_emojis(message):
 OWNER_ID = 5913865424 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [7534723821,7571849328,5070075289,5489195865,7216142187,5997896353,8175053386,7462419134]
+SUDO_USERS = [7534723821,7571849328,1096932670,5913865424,7216142187,5997896353,8175053386,7462419134]
 
 AUTH_CHANNEL = -2612902830
 
@@ -80,7 +80,7 @@ bot = Client(
     "bot",
     api_id=29028535,
     api_hash=9e501cebfbd5da42d6b74d48a1bf2536,
-    bot_token=7839271598:AAEVSyu_tfcxT8Jk4TvGdEb0Up3VwjBJKig)
+    bot_token=7839271598:AAEVSyu_tfcxT8Jk4TvGdEb0Up3VwjBJKig,
 
 # Sudo command to add/remove sudo users
 @bot.on_message(filters.command("sudo"))
