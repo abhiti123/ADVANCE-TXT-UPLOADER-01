@@ -78,7 +78,7 @@ def is_authorized(user_id: int) -> bool:
 
 bot = Client(
     "bot",
-    api_id="29028535"
+    api_id= 29028535,
     api_hash="9e501cebfbd5da42d6b74d48a1bf2536"
     bot_token="7839271598:AAEVSyu_tfcxT8Jk4TvGdEb0Up3VwjBJKig"
 
